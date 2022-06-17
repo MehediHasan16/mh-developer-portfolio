@@ -1,0 +1,18 @@
+body {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+.orange-color {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
