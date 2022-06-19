@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-family: 'Baloo Bhaijaan 2', cursive;
     font-family: 'Poppins', sans-serif;
 
@@ -9,18 +10,27 @@ h1 {
 
 }
 
+h2 {
+    font-size: 40px;
+
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
 
+
+
+
 .half-width {
     width: 100%;
     padding-left: 5%;
+
 }
 
 .half-width img {
@@ -44,5 +54,49 @@ section {
 .middle-part {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right 50% bottom 10%;
+    background-position: right bottom -7%;
+}
+
+.experiences-text {
+    margin-left: 5%;
+}
+
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 25%;
+
+
+}
+
+.experiences-items {
+
+
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    margin: 50px;
+
+
+}
+
+#web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+#baby-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, yellow);
+    border-image-slice: 1;
+
+}
+
+footer {
+    text-align: center;
 }
